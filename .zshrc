@@ -70,7 +70,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,6 +99,36 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export JAVA_HOME=/usr/lib/jvm/default-runtime
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH=$PATH:/home/ajay/flutter
+export PATH=$PATH:/home/ajay/flutter/bin
+export PATH=$PATH:/home/ajay/.cargo/bin
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias el="eza -al"
+alias elg="eza -al --git"
+alias ga="git add"
+alias giap="git add -p"
+alias grst="git restore --staged"
+alias grs="git restore"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias gcm="git commit -m"
+alias bsdp="broot -sdp"
+
+source /home/ajay/.config/broot/launcher/bash/br
+
+# bun completions
+[ -s "/home/ajay/.bun/_bun" ] && source "/home/ajay/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
