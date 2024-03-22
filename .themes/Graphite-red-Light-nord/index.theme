@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Graphite-red-Light-nord
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Graphite-red-Light-nord
+MetacityTheme=Graphite-red-Light-nord
+IconTheme=Tela-circle
+CursorTheme=Graphite-cursors
+ButtonLayout=close,minimize,maximize:menu
