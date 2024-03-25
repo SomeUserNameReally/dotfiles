@@ -111,8 +111,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias el="exa -al"
-alias elg="exa -al --git"
+alias el="exa -al --header"
+alias elg="exa -al --git --header"
 alias ga="git add"
 alias giap="git add -p"
 alias grst="git restore --staged"
