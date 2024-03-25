@@ -767,7 +767,7 @@ $env.PATH = ($env.PATH |  append /home/ajay/flutter/bin)
 $env.PATH = ($env.PATH |  append /home/ajay/.cargo/bin)
 $env.CHROME_EXECUTABLE = /usr/bin/google-chrome-stable
 
-alias elg = eza -al --git --long --header
+alias elg = exa -al --git --long --header
 
 alias gg = git-graph
 
@@ -782,6 +782,8 @@ alias gcm = git commit -m
 alias gsm = git stash -m
 
 # ====== STARSHIP PROMPT ======
+use ~/.cache/starship/init.nu
+
 $env.STARSHIP_SHELL = "nu"
 
 def create_left_prompt [] {
@@ -814,3 +816,5 @@ if not (which fnm | is-empty) {
 
 alias dotfiles = git --git-dir=/home/ajay/.cfg/ --work-tree=/home/ajay
 
+
+use '/home/ajay/.config/broot/launcher/nushell/br' *
