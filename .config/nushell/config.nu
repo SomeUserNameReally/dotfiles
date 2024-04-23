@@ -767,7 +767,7 @@ $env.PATH = ($env.PATH |  append /home/ajay/flutter/bin)
 $env.PATH = ($env.PATH |  append /home/ajay/.cargo/bin)
 $env.CHROME_EXECUTABLE = /usr/bin/google-chrome-stable
 
-alias elg = exa -al --git --long --header
+alias elg = eza -al --git --long --header
 
 alias gg = git-graph
 

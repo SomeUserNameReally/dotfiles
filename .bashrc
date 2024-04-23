@@ -138,3 +138,5 @@ ex ()
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+
+source /home/ajay/.config/broot/launcher/bash/br
