@@ -101,5 +101,6 @@ $env.NU_PLUGIN_DIRS = [
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
 mkdir ~/.cache/starship
-starship init nu | save -f ~/.cache/starship/init.nu
+# starship init nu | save -f ~/.cache/starship/init.nu
+oh-my-posh init nu --config ~/.themes/oh-my-posh/atomic.omp.json
 

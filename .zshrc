@@ -111,8 +111,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias el="exa -al --header"
-alias elg="exa -al --git --header"
+alias gg="git-graph"
+alias el="eza -al --header"
+alias elg="eza -al --git --header"
+alias gst="git status"
 alias ga="git add"
 alias giap="git add -p"
 alias grst="git restore --staged"
@@ -120,6 +122,13 @@ alias grs="git restore"
 alias gd="git diff"
 alias gds="git diff --staged"
 alias gcm="git commit -m"
+alias gsm="git stash -m"
+alias glo="git log --oneline"
+alias gph="git push"
+alias gpl="git pull"
+alias gul="git reset --soft HEAD~1"
+
+
 alias bsdp="broot -sdp"
 
 source /home/ajay/.config/broot/launcher/bash/br
@@ -130,6 +139,7 @@ source /home/ajay/.config/broot/launcher/bash/br
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 eval `dircolors /home/ajay/.dir_colors/dircolors`
+
