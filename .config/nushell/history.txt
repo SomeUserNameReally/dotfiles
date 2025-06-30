@@ -1,0 +1,888 @@
+exit
+cd
+config nu
+pwd
+exit
+config nu
+config env
+paru tmux
+exit
+tmux
+exit
+cat /usr/shells
+cat /etc/shells<\n>
+sudo chsh -s /bin/bash
+bash
+sh
+cd ~/Developer/Work/Stockment/backend/
+exit
+nvim
+gst
+cd prime_db/
+nvim ~/.config/kitty/kitty.conf
+pwd
+clear
+cargo test
+nvim ~/.tmux.conf
+nvim ~/.config/kitty/kitty.conf
+exit
+exit
+exit
+exit
+tmux
+clear
+nvim ~/.config/kitty/kitty.conf
+exit
+tmux
+nvim ~/.config/kitty/kitty.conf
+cd ~/Developer/Work/Stockment/backend/
+nvim ~/.config/kitty/kitty.conf
+exit
+tmux
+cd ~/Developer/Work/Stockment/backend/
+clear
+podman ps
+podman run stockment_prime
+podman start stockment_prime
+podman ps
+cd prime_db/
+clear
+diesel migration run
+cargo test
+exit
+gst
+gd
+giap
+gds
+gg
+gcm "Add sql session file type to gitignore"
+git config --global user.name "Ajay Singh"
+git config user.email "ajayhasanemail@gmail.com"
+gcm "Add sql session file type to gitignore"
+gst
+giap
+gst
+gcm "Conditionally populate env only if env file is successfully read"
+gst
+gd prime_backend/*
+giap
+gst
+gds
+gcm "Print actual value of the server type after it is read from env"
+gst
+gph
+nvim ~/.github_auth_token
+cat ~/.github_auth_token
+config nu
+ls ~/.themes/oh-my-posh/
+exit
+config env
+cd ~/Developer/Work/Stockment/backend/
+exit
+podman ps
+exit
+config env
+config nu
+paru starship
+brew install starship
+homebrew install starship
+paru starship
+mkdir ~/.cache/starship/
+config nu
+config env
+exit
+gst
+gpl
+exit
+exit
+cargo run --bin=prime_backend  --package=prime_backend
+exit
+nvim
+exit
+exit
+exit
+exit
+tmux
+exit
+cd ~/Developer/Work/Stockment/backend/
+tm
+gst
+cd prime_db/
+clear
+cargo test
+cd ../
+cd ../
+cd ../../
+nvim
+cd ..
+cd ../
+cd
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "ajayhasanemail@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+bash
+exit
+ls
+cp backend/logger/src/env/log4rs.yaml ./log4rs.yaml
+ls
+rm -rf backend/
+git clone git@github.com:Stockment/backend.git backend
+cat log4rs.yaml
+rm log4rs.yaml
+cd backend/
+gst
+cd backend/
+cd backend/prime_db/
+cd backend/
+cd backend/
+gst
+cargo test
+realpath logger/src/env/log4rs.yaml
+cd ~/Developer/Work/Stockment/backend/
+realpath logger/src/env/log4rs.yaml
+cargo run --bin=prime_backend  --package=prime_backend
+podman ps
+bsdp prime_backend/
+find prime_backend/.env
+find prime_backend/ .env
+find .env prime_backend
+ls -a prime_backend/
+cat prime_backend/.env
+cargo run --bin=prime_backend  --package=prime_backend
+exit
+cargo run --bin=prime_backend  --package=prime_backend
+mv prime_backend/.env prime_backend/src/
+cargo run --bin=prime_backend  --package=prime_backend
+ls -a prime_backend/
+ls -a prime_backend/src
+mv prime_backend/src/.env prime_backend
+ls -a prime_backend/src
+ls -a prime_backend/
+cat prime_backend/.env
+cargo run --bin=prime_backend  --package=prime_backend
+mv prime_backend/src/.env .
+mv prime_backend/.env .
+cd
+nvim ~/.tmux.conf
+exit
+exit
+exit
+exit
+tmux
+exit
+exit
+gd
+giap
+gst
+gcm "Show error message on prime_backend when loading env file fails"
+git config user.email "ajayhasanemail@gmail.com"
+git config --global user.name "Ajay Singh"
+gcm "Show error message on prime_backend when loading env file fails"
+gst
+cargo run --bin=prime_backend  --package=prime_backend
+cargo watch --help
+cargo install cargo-watch
+cargo watch -x run --bin=prime_backend  --package=prime_backend
+cargo watch --help
+diesel migration revert --all
+gst
+gd
+bsdp
+elg prime_db/migrations/
+exit
+gst
+gd prime_db/migrations/*
+giap
+gst
+giap
+diesel migration run
+gst
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+cargo test
+gcm "Use pre-defined function by diesel for auto updating rows' updated_at on insert"
+gst
+gph
+htop
+exit
+paru
+nvim
+bsdp
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+podman ps
+podman stop stockment_prime
+podman ps
+paru qmeu
+paru qemu
+paru kvm
+paru libvirt
+sudo pacman -Syy
+paru archlinux-keyring
+paru ebtables
+sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat dmidecode
+sudo pacman -S ebtables iptables
+sudo pacman -S ebtables
+paru libguestfs
+sudo systemctl enable --now libvirtd.service
+systemctl status libvirtd.service
+sudo vim /etc/libvirt/libvirtd.conf
+sudo systemctl restart libvirtd.service
+man modprobe
+sudo modprobe -r kvm_intel
+sudo modprobe kvm_intel nested=1
+cat /etc/modprobe.d/kvm-intel.conf
+bash
+cat /etc/modprobe.d/kvm-intel.conf
+systool -m kvm_intel -v | grep nested
+cat /sys/module/kvm_intel/parameters/nested
+exit
+exit
+exit
+exit
+exit
+tmux
+exit
+exit
+reboot
+uname -a
+uname
+man uname
+uname --all
+bash
+exit
+cd ~/Developer/Work/Stockment/backend/
+exit
+exit
+nvim
+exit
+tmux
+dotfiles status
+dotfiles diff
+nvim ~/.zshrc
+cd ~/Developer/Work/Stockment/backend/
+zsh
+nvim ~/.zshrc
+zsh
+nvim ~/.tmux.conf
+exit
+exit
+tmux
+nvim ~/.tmux.conf
+exit
+exit
+tmux
+nvim ~/.tmux.conf
+exit
+exit
+tmux
+nvim ~/.tmux.conf
+cd ~/Developer/Work/Stockment/backend/
+cd ~/Developer/Work/Stockment/backend/prime_db/
+cd ~/Developer/Work/Stockment/backend/
+gst
+podman start stockment_prime
+cd ~/Developer/Work/Stockment/backend/
+nvim ~/.tmux.conf
+exit
+cd ~/Developer/Work/Stockment/backend/
+gst
+bsdp
+broot
+broot --help
+which bd
+which brd
+config nu
+brd
+broot -d
+exit
+exit
+bash
+exit
+exit
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+cd prime_db/
+podman ps
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+cd ~/Developer/Work/Stockment/backend/
+cd ~/Developer/Work/Stockment/backend/
+gst
+gd
+nvim
+gst
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+HT
+htop
+paru -R bitwarden
+paru bitwarden
+bitwarden-desktop 
+bitwarden-desktop --help
+fd bitwarden ~/
+find bitwarden ~/
+find bitwarden
+find ~/ bitwarden
+find --help
+ls -ar | find bitwarden
+ls -a -r | find bitwarden
+man ls
+ls -Ra | find bitwarden
+bash
+ls ~/.config/Bitwarden/
+rm -rf ~/.config/Bitwarden/
+$env.XDG_CONFIG_HOME
+$env.PATH
+clear
+~/.config/nvim/
+n
+nvim
+cd
+mkdir ~/.config/sqls/
+ls ~/.config/
+nvim ~/.config/sqls/config.yml
+nvim
+exit
+podman ps
+ls -a | rg -i env
+ls -aR | rg -i env
+man ls
+ls -R | rg -i env
+ls --recursive | rg -i env
+man ls
+ls --help
+man ls
+bash
+brt
+broot -d
+broot -d ../
+nautilus ../
+po
+podman ps
+podman stop stockment_prime
+exit
+cd ../
+clear
+gst
+paru microsoft-edge
+cat `~/Documents/Health First Address.txt`
+clear
+htop
+exit
+paru gdb
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+paru vlc
+exit
+exit
+htop
+exit
+paru chrome-stable
+paru chrome
+$env.XDG_SESSION_TYPE
+paru google-chrome
+paru vulkan-tools
+vulkaninfo
+sudo lspci -v | less
+paru vulkan-intel
+lspci | grep VGA
+sudo pacman -S lshw inxi
+inxi -G
+lsmod | grep i915
+nvim
+exit
+exit
+exit
+tmux
+exit
+sudo pacman -S vulkan-intel vulkan-tools vulkan-validation-layers
+reboot
+paru
+paru google-chrome
+vulkaninfo | less
+which tmux
+nvim ~/.config/kitty/kitty.conf
+exit
+paru google-chrome
+clear
+cd ~/Developer/Work/Stockment/backend/
+exit
+nvim ~/.config/kitty/kitty.conf
+clear
+exit
+nvim ~/.config/kitty/kitty.conf
+exit
+cd ~/Developer/Work/Stockment/backend/
+exit
+tmux
+nvim ~/.tmux.conf
+exit
+tmux
+nvim ~/.tmux.conf
+exit
+exit
+cd ~/Developer/Work/Stockment/backend/
+clear
+exit
+exit
+tmux
+cd ~/Developer/Work/Stockment/backend/
+clear
+gst
+htop
+exit
+gd
+cd
+nvim ~/.config/nvim/
+exit
+nvim
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+htop
+exit
+paru cmatrix
+pwd
+exit
+pwd
+htop
+exit
+htop
+exit
+exit
+exit
+tmux
+exit
+paru lvm2
+lsblk
+man pvcreate
+sudo pvcreate /dev/nvme1n1
+man pvcreate
+man wipefs
+sudo wipefs --all --backup /dev/nvme1n1
+sudo pvcreate /dev/nvme1n1
+sudo vgcreate vg0 /dev/nvme1n1
+sudo lvcreate -l 100%FREE -n lv_storage vg0
+sudo mkfs.ext4 /dev/vg0/lv_storage
+sudo mkdir /mnt/new_storage
+sudo mount /dev/vg0/lv_storage /mnt/new_storage
+sudo nvim /etc/fstab
+reboot
+ls /mnt
+ls /mnt/new_storage/
+nautilus /mnt/new_storage/
+man ln
+ln -s /mnt/new_storage/ ~/Samsung_Drive
+paru rsync
+man rsync
+htop
+cd ~/Developer/Work/Stockment/backend/
+gst
+gd
+cargo watch -x "run --bin=prime_backend  --package=prime_backend"
+htop
+exit
+bsdp
+exit
+htop
+exit
+paru imagemagick
+which convert
+convert --help
+magick --help
+magick convert --help
+cd ~/Downloads/
+convert WhatsApp*.jpeg report.pdf
+ls
+cd ~/Downloads/
+convert WhatsApp*.jpeg report.pdf
+bash
+grep -e vmx -e svm /proc/cpuinfo
+paru scribus
+nvim
+exit
+exit
+exit
+tmux
+exit
+pamac
+paru
+reboot
+cargo update
+rustup update
+cd ~/Developer/Work/Stockment/backend/
+cat test.js
+nvim test.js
+cd ~/Developer/Work/Stockment/backend/
+nvim
+exit
+tmux
+paru
+reboot
+cd ~/Developer/Work/Stockment/backend/
+paru zed
+paru zed-dev
+paru zed-ide
+paru zed
+cd ~/Developer/Work/Stockment/backend/
+paru yt-dlp
+cd ~/Developer/Work/Stockment/backend/
+exit
+gst
+gds
+gd
+cargo test
+exit
+docker ps
+podman ps
+podman start stockment_prime
+podman ps
+cargo run --bin=prime_backend  --package=prime_backend
+curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
+config nu
+exit
+nvim ~/.zshrc
+exit
+zsh
+exit
+amm
+cs setup
+clear
+bsdp
+mkdir Developer/Practice/Scala
+mkdir Developer/Practice/Scala/Base
+cd ~/Developer/Practice/Scala/Base/
+mkdir hello-world
+cd hello-world/
+sbt new scala/scala3.g8
+javac --version
+java --version
+paru jdk-21
+pwd
+cd /home/ajay/Developer/Practice/Scala/Base/hello-world
+java --version
+javac --version
+sbt new scala/scala3.g8
+ls
+cd ..
+mv hello-world/ intro
+ls intro/hello-world/
+cd intro/hello-world/
+clear
+nvim
+code .
+exit
+tmux
+exit
+paru intellij
+paru
+reboot
+paru
+reboot
+paru
+reboot
+paru
+zsh
+reboot
+htop
+paru spotify
+paru spotify-bin
+paru spotify
+paru
+reboot
+cd ~/.config/nvim/
+gst
+gd
+ga init.lua
+gst
+gcm "Set keymaps for naivgating git hunks"
+git config user.email "ajayhasanemail@gmail.com"
+gcm "Set keymaps for naivgating git hunks"
+gst
+gph
+ssh -T git@github.com
+cat .github_auth_token
+gst
+git checkout -b nvim-lua-master master
+git pull https://github.com/nvim-lua/kickstart.nvim.git master
+gst
+git switch master
+gst
+git list
+git switch nvim-lua-master
+gst
+git pull https://github.com/nvim-lua/kickstart.nvim.git master
+git config pull.rebase false
+git pull https://github.com/nvim-lua/kickstart.nvim.git master
+gst
+nvim
+gst
+code .
+nvim
+gst
+code .
+nvim
+git switch master
+git merge --quit
+gst
+git switch master
+git reset --merge
+gst
+git switch master
+nvim
+cd ~/.config/nvim/
+nvim
+cd ~/Downloads/
+git clone git@github.com:nvim-lua/kickstart.nvim.git
+ls
+ls kickstart.nvim/
+gst
+nvim
+gst
+gd init.lua
+cd
+git clone git@github.com:SomeUserNameReally/kickstart.nvim.git ~/.config/nvim
+cd ~/.config/nvim/
+gst
+nvim
+gst
+nvim
+cd
+cd ~/.config/nvim/
+cd ..
+rm -rf nvim/
+git clone git@github.com:SomeUserNameReally/kickstart.nvim.git ~/.config/nvim
+cd ~/.config/nvim/
+gst
+git checkout -b nvim-lua-master master
+git pull git@github.com:nvim-lua/kickstart.nvim.git master
+git config pull.rebase false
+git pull git@github.com:nvim-lua/kickstart.nvim.git master
+git config user.email "ajayhasanemail@gmail.com"
+gst
+git pull git@github.com:nvim-lua/kickstart.nvim.git master
+gst
+code .
+gst
+nvim
+ga init.lua
+gst
+gcm "Update fork to origin"
+gst
+git checkout master
+git merge --no-ff nvim-lua-master
+git push origin master
+nvim
+cd
+cleara
+cd ~/Developer/Work/Stockment/backend/
+nvim
+zsh
+clear
+ddn auth login
+ddn auth --help
+ddn auth print-pat
+clear
+cd ~/Developer/Work/Stockment/
+ls
+el
+elg
+elg backend/
+mkdir hasura
+cd hasura/
+ddn supergraph init .
+elg
+nvim
+bsdp
+ddn connector init neon_postgres -i
+ddn connector introspect neon_postgres
+paru docker
+paru docker-desktop
+reboot
+cd ~/Developer/Work/Stockment/hasura/
+nvim
+cd
+rg --help
+exit
+cd
+cd ~/.config/nvim/
+nvim
+exit
+nvim
+cd
+cd ~/.config/nvim/
+nvim
+code .
+nvim
+exit
+ddn connector introspect neon_postgres
+docker ps
+exit
+exit
+tmux
+cd ~/Developer/Work/Stockment/hasura/
+ddn connector introspect neon_postgres
+ddn connector introspect neon_postgres --envfile .env
+ddn --envfile .env connector introspect neon_postgres
+ddn --help
+ddn connector --help
+ddn connector introspect neon_postgres --log-level DEBUG
+cat app/subgraph.yaml
+cp .env app
+elg app
+ddn connector introspect neon_postgres --log-level DEBUG
+rm app/.env
+elg app
+elg
+ddn connector introspect neon_postgres --log-level DEBUG
+ddn connector-link add-resources neon_postgres
+gst
+ddn supergraph build local
+HASURA_DDN_PAT=$(ddn auth print-pat) docker compose --env-file .env up --build --watch
+zsh
+exit
+nvim
+cd ~/Developer/Work/Stockment/hasura/
+ddn console --local
+ddn supergraph build create
+nvim
+ddn supergraph build apply 0.1.0 --project fluent-sunbeam-4552
+ddn supergraph build apply init_build --project fluent-sunbeam-4552
+ddn supergraph build apply <init_build> --project fluent-sunbeam-4552
+ddn supergraph build apply "init_build" --project fluent-sunbeam-4552
+ddn supergraph build apply af1d9973f3 --project fluent-sunbeam-4552
+cd ~/Developer/Work/Stockment/
+git clone git@github.com:Stockment/stockment-backend.git
+cd stockment-backend/
+fnm ls
+npm list -g --depth=0
+fnm use
+fnm ls
+node -v
+fnm use 16.20.2
+node -v
+node -v
+npm list -g --depth=0
+corepack enable
+which yarn
+yarn set version stable
+yarn -v
+exit
+yarn
+nvim
+code .
+nvim
+code .
+snap list
+paru snapd
+paru snap
+code ~/Developer/Work/Stockment/hasura/
+cd ~/Developer/Work/Stockment/hasura/
+git init
+git config --global init.defaultBranch main
+git branch -m main
+git config user.email "ajayhasanemail@gmail.com"
+gst
+git config --global init.defaultBranch
+git config --global init.defaultBranch prime
+git config --global init.defaultBranch
+paru
+zsh
+exit
+reboot
+paru libquery-engine
+cd ~/Developer/Work/Stockment/hasura/
+gst
+cd ~/Developer/Work/Stockment/hasura/
+gst
+cd ~/Developer/Work/Stockment/hasura/
+gst
+ga .
+gst
+gcm "Init commit"
+gst
+glo
+gg
+gl
+glp
+git log
+git remote add origin git@github.com:Stockment/hasura-api.git
+git push -u origin main
+gst
+ga .
+gst
+gcm "Remove stray log"
+gst
+git push
+gst
+cd ~/Developer/Work/Stockment/hasura/
+node
+gcm "Add jest to nodjs connector"
+gst
+ga .
+gst
+gcm "Add test for util hashing function"
+gst
+gcm "Make hashing function async to keep event loop clear, update test"
+gst
+gph
+gst
+gcm "Moving everything outside of the shared/global directory, remove it"
+gst
+gcm "Move db connection functionality to own file"
+gst
+GST
+gst
+gcm "Move mutation to own file, re-export as needed"
+gst
+gph
+code .
+cd ~/Developer/Work/Stockment/
+git clone git@github.com:Stockment/stockment.git
+cd stockment/
+node -v
+fnm use
+node -v
+cd ~/Developer/Work/Stockment/stockment/
+code .
+npm i
+npm audit fix
+npm start
+cd ~/Developer/Practice/Languages/Dart/Frameworks/Flutter/Udemy/flutter-&-dart-complete/meals/
+code .
+~/Android/Sdk/platform-tools/adb devices
+flutter doctor --android-license
+flutter doctor --android-licenses
+paru cmake
+paru ninja
+pub get
+flutter pub get
+flutter pub add
+cd ../expense_tracker/
+code .
+flutter doctor
+flutter create --help
+cd ..
+flutter create test
+cd test/
+code .
+cd ..
+rm -rf test
+ls
+cd expense_tracker/
+code .
+cd ..
+clear
+mv meals/ meals.old
+ls
+flutter create meals
+cd meals/
+code .
+cd ..
+flutter create pizza
+cd pizza/
+code .
+paru
+reboot
+nvim ~/.config/nushell/config.nu
+exit
+nvim ~/.config/nushell/config.nu
+exit
+nvim ~/.config/nushell/config.nu
+zsh
+exit
+dotfiles status
+exit

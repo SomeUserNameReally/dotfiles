@@ -1,14 +1,19 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Enable spelling correction
+#setopt correct
+#setopt correct_all
 
-# Path to your oh-my-zsh installation.
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
+# load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+# mgutz, lambda, *gallois*
+ZSH_THEME="gallois"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -91,47 +96,22 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# Set personal aliases, overriding those provided by Oh My Zsh libs,
+# plugins, and themes. Aliases can be placed here, though Oh My Zsh
+# users are encouraged to define aliases within a top-level file in
+# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
+# - $ZSH_CUSTOM/aliases.zsh
+# - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export JAVA_HOME=/usr/lib/jvm/default-runtime
-export PATH=$PATH:$JAVA_HOME/bin
-export PATH=$PATH:/home/ajay/flutter
-export PATH=$PATH:/home/ajay/flutter/bin
-export PATH=$PATH:/home/ajay/.cargo/bin
-export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
-
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-alias gg="git-graph"
-alias el="eza -al --header"
-alias elg="eza -al --git --header"
-alias gst="git status"
-alias ga="git add"
-alias giap="git add -p"
-alias grst="git restore --staged"
-alias grs="git restore"
-alias gd="git diff"
-alias gds="git diff --staged"
-alias gcm="git commit -m"
-alias gsm="git stash -m"
-alias glo="git log --oneline"
-alias gph="git push"
-alias gpl="git pull"
-alias gul="git reset --soft HEAD~1"
-
-
-alias bsdp="broot -sdp"
 
 source /home/ajay/.config/broot/launcher/bash/br
+
+eval "$(fnm env --use-on-cd)"
+
 
 # bun completions
 [ -s "/home/ajay/.bun/_bun" ] && source "/home/ajay/.bun/_bun"
@@ -139,7 +119,47 @@ source /home/ajay/.config/broot/launcher/bash/br
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+export PATH="$HOME/.local/share/coursier/bin:$PATH"
 
-eval `dircolors /home/ajay/.dir_colors/dircolors`
+
+# export JAVA_HOME="/usr/lib/jvm/default-runtime"
+export PATH="$PATH:/usr/lib/jvm/default-runtime/bin"
+export PATH="$PATH:$HOME/flutter"
+export PATH="$PATH:$HOME/flutter/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
+export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+
+alias elg="eza -al --git --long --header"
+
+alias gg="git-graph"
+
+alias gst="git status"
+alias ga="git add"
+alias giap="git add -p"
+alias grst="git restore --staged"
+alias grs="git restore"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias gdt="git difftool -y"
+alias gdts="git difftool -y --staged"
+alias gcm="git commit -m"
+alias gsm="git stash -m"
+alias glo="git log --oneline"
+alias gph="git push"
+alias gpl="git pull"
+alias gul="git reset --soft HEAD~1"
+
+alias bsdp="br -gsdp"
+alias brdh="br -gdh"
+
+# === dotfiles config git ===
+
+alias dotfiles="git --git-dir=/home/ajay/.cfg/ --work-tree=/home/ajay"
+export PATH="$PATH:/home/ajay/.modular/bin"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+
+# Android SDK
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 

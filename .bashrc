@@ -140,3 +140,9 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 
 source /home/ajay/.config/broot/launcher/bash/br
+
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/ajay/.lmstudio/bin"
+# End of LM Studio CLI section
+

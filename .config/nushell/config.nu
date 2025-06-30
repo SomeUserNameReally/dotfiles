@@ -788,6 +788,7 @@ $env.config = {
 $env.EDITOR = nvim
 $env.JAVA_HOME = /usr/lib/jvm/default-runtime
 $env.PATH = ($env.PATH |  append /usr/lib/jvm/default-runtime/bin)
+$env.PATH = ($env.PATH |  append /home/ajay/.local/share/coursier/bin)
 $env.PATH = ($env.PATH |  append /home/ajay/.bun/bin)
 $env.PATH = ($env.PATH |  append /home/ajay/flutter)
 $env.PATH = ($env.PATH |  append /home/ajay/flutter/bin)
@@ -813,34 +814,35 @@ alias gpl = git pull
 alias gul = git reset --soft HEAD~1
 
 # ====== STARSHIP PROMPT ======
-# use ~/.cache/starship/init.nu
+use ~/.cache/starship/init.nu
 
 $env.STARSHIP_SHELL = "nu"
 
-#def create_left_prompt [] {
-#    starship prompt --cmd-duration $env.CMD_DURATION_MS $'--status=($env.LAST_EXIT_CODE)'
-#}
+def create_left_prompt [] {
+    starship prompt --cmd-duration $env.CMD_DURATION_MS $'--status=($env.LAST_EXIT_CODE)'
+}
 
 # Use nushell functions to define your right and left prompt
-#$env.PROMPT_COMMAND = { || create_left_prompt }
-#$env.PROMPT_COMMAND_RIGHT = ""
+$env.PROMPT_COMMAND = { || create_left_prompt }
+$env.PROMPT_COMMAND_RIGHT = ""
 
 # The prompt indicators are environmental variables that represent
 # the state of the prompt
-#$env.PROMPT_INDICATOR = ""
-#$env.PROMPT_INDICATOR_VI_INSERT = ": "
-#$env.PROMPT_INDICATOR_VI_NORMAL = "〉"
-#$env.PROMPT_MULTILINE_INDICATOR = "::: "
+$env.PROMPT_INDICATOR = ""
+$env.PROMPT_INDICATOR_VI_INSERT = ": "
+$env.PROMPT_INDICATOR_VI_NORMAL = "〉"
+$env.PROMPT_MULTILINE_INDICATOR = "::: "
 
 # ==========
 
 # ====== Oh My Posh Prompt ======
-source ~/.oh-my-posh.nu
+# source ~/.oh-my-posh.nu
 # ===============================
 
 
 # source /home/ajay/.config/broot/launcher/nushell/br
 alias bsdp = broot -sdp
+alias brd = broot -d
 
 if not (which fnm | is-empty) {
   ^fnm env --json | from json | load-env
